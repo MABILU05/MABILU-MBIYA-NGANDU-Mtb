@@ -1,0 +1,316 @@
+body{
+    background-color:rgba(204, 198, 198, 0.664);
+}
+#MENU{
+   /* border: 2px solid brown;*/
+    width: 100%;
+    height:  130px;
+    margin: auto;
+	margin-top: -30px;
+	position: fixed;
+    background-color: white;
+
+}
+.mainmenu{
+   /* border: 2px solid black;*/
+    width: 1000px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 500px;
+	background-color: white;
+}
+
+.logo{
+    /*border: 2px solid black;*/
+    width: 290px;
+    height: 117px;
+    margin-top: px;
+    margin-left: 100px;
+    background-image: url(athms.png);
+
+}
+
+#Corps{
+    border: 2PX solid white;
+    width: 100%;
+    height: 2895PX;
+    margin-top: 20px;
+    background-image: url();
+}
+
+#footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+}
+
+
+charset "utf-8";
+body {
+	background-color: black;
+behavior:url("csshover2.htc");
+.mainmenu{
+}
+}
+
+.mainmenu{
+	float: left;
+	width: 1000px;
+	padding: 0;
+}
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1;
+	color:black;
+	padding: 0;
+	margin: 0 0 1em 0;
+}
+
+.mainmenu a, .mainmenu a:visited {
+	display: block;
+font-family:Arial, Helvetica, sans-serif;font-size:1em;font-weight:bold;font-style:grang;text-decoration:underline;
+	color: black;
+	text-decoration: none;
+	padding: 1em 1em;
+}
+.mainmenu ul ul a{
+	width:100%;
+	height:100%;
+}
+.mainmenu ul a{
+	width:1%;
+}
+
+
+.mainmenu li  {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+.mainmenu ul li {float:left; position:relative;  }
+.mainmenu ul li a {white-space:nowrap;}
+	
+.mainmenu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width:15em;	
+	
+	background: #000080;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+}
+
+.mainmenu li li {
+	width:15em ;
+}
+
+.mainmenu li li a{
+	width:13em ;
+}
+
+.mainmenu li ul  {
+	margin: 0;
+}
+.mainmenu li ul ul {
+	margin: -2.8em 0 0 13.5em;
+}
+.ul_ch, 
+.mainmenu li:hover ul ul,
+.mainmenu li li:hover ul ul,
+.mainmenu li li li:hover ul ul,
+.mainmenu li li li li:hover ul ul,
+.mainmenu li li li li li:hover ul ul
+{
+	left: -999em;
+}
+.mainmenu li:hover ul,
+.mainmenu li li:hover ul,
+.mainmenu li li li:hover ul,
+.mainmenu li li li li:hover ul,
+.mainmenu li li li li li:hover ul
+{
+	left: auto;
+}
+.mainmenu li:hover>ul.ul_ch   
+{
+	left: auto;
+}
+
+.mainmenu li:hover{
+	background: rgb(236, 227, 227);
+}
+
+.mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+	color:black;
+}
+.mainmenu li:hover li a, .mainmenu li li:hover li a, 
+.mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+.mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+.mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+{
+	color:#0f0f0f;
+}
+.mainmenu li li:hover, .mainmenu li li li:hover, 
+.mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+{
+	background:black;
+	z-index:9999;
+}
+.mainmenu li li:hover a,.mainmenu li li li:hover a, 
+.mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+{
+	color: black; 
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited,
+.mainmenu li li a, .mainmenu li li a:visited
+{
+	color:black;
+}
+.mainmenu ul ul a:hover,
+.mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+	color: #323bbb;
+}
+.mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+.mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+	color: #3e8ac9;
+
+}
+
+#footer{
+	flex-shrink: 0;
+	width: 100%;
+	height: 180px;
+	margin-top: -1px;
+	background-color: #0e0e0f
+
+}
+#Contenu-footer{
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 5px 0 10px;
+	margin-left: 300px;
+}
+
+.liste-orateur,
+.liste-musicien,
+.liste-consultant,
+.liste-event{
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+.pied-orateur {
+	text-decoration: none ;
+	color:white;
+	margin-top: -5px;
+	margin-left: 50px;
+}
+.pied-musicien{
+	text-decoration: none;
+	color: white;
+	margin-top: -130px;
+	margin-left: 270PX;
+	
+}
+.pied-consultant{
+	text-decoration: none ;
+	color: #ffffff;
+	margin-top: -130px;
+	margin-left: 480px;
+}
+.pied-event{
+	text-decoration: none ;
+	color: #ffffff;
+	margin-top: -115px;
+	margin-left: 700px;
+}
+.liste-consultant a:hover{
+	color:white;
+}
+.liste-event a:hover{
+	color: white;
+}
+.liste-musicien a:hover{
+	color: white;
+}
+.liste-orateur a:hover{
+	color: white;
+}
+.act1{
+	float: left;
+}
+.form{
+	text-align: center;	
+}
+
+#ph{
+	width: 1565px;
+	height: 960px;
+	background-image: url(nj.PNG);
+}
+
+#herv{
+	border: 2px solid white;
+	height: 100px;
+}
+#NJ{
+	
+	width: 320px;
+	margin-top:50px;
+	margin-left: 123px;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+}
+#dan{
+	
+	width: 500px;
+	height: 70px;
+	margin-top: -120px;
+	margin-left:500px ;
+	font-size: 100px;
+
+}
+#dg{
+	width: 1565px;
+	height: 960px;
+	background-image: url(couvert\ h.PNG);
+}
+#nadege{
+	border: 2px solid white;
+	 width: 1565px;
+	 height: 867px;
+	 background-image: url(maxresdefault.jpg);
+	
+}
+#idi{
+	
+	width: 800px;
+	height: 430px;
+	margin-top: -204px;
+	margin-left: 380px;
+}
+
+
+
+/*<li class="li_nc"><a href="#"  >prise en charge marchandise</a></li>
+<li class="li_nc"><a href="#"  >Enregistrement chargeur</a></li>
+<li class="li_nc"><a href="#"  >Assistance chargeur</a></li>
+<li class="li_nc"><a href="#"  >Douane et Accise</a></li>
+</ul></li>*/
